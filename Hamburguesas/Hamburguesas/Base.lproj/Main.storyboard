@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Hamburguesas" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2e2-vi-iO0"/>
+                        <viewControllerLayoutGuide type="bottom" id="Hre-dy-kR1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🍔🌍" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pqW-bU-06D">
+                                <rect key="frame" x="135.03832442067471" y="55.000000000000114" width="103.99999999999991" height="56.999999999999972"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="48"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="País" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hie-z9-NpM">
+                                <rect key="frame" x="170.5" y="357" width="34.5" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hamburguesa" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A8t-fp-2MR">
+                                <rect key="frame" x="129.5" y="438" width="115.5" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Precio" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PLc-0h-W48">
+                                <rect key="frame" x="161.5" y="527" width="52" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="--Pulse el botón--" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7x7-MB-kLq">
+                                <rect key="frame" x="117.5" y="386" width="139" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="--Pulse el botón--" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wYM-LA-e6W">
+                                <rect key="frame" x="117.5" y="556" width="139" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oUs-q5-zXN">
+                                <rect key="frame" x="75" y="227" width="224" height="34"/>
+                                <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="Quiero una hamburguesa!">
+                                    <color key="titleShadowColor" cocoaTouchSystemColor="lightTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="quieroUnaHamburguesa" destination="BYZ-38-t0r" eventType="touchUpInside" id="0ze-88-N5G"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hamburguesas del Mundo" lineBreakMode="wordWrap" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gXr-lc-G50">
+                                <rect key="frame" x="40" y="120" width="294" height="29"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="--Pulse el botón--" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iI5-PL-ZVb">
+                                <rect key="frame" x="117.5" y="467" width="139" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.80668521663323656" green="0.96235233545303345" blue="0.74036622020325504" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="7x7-MB-kLq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3hL-bj-tDy"/>
+                            <constraint firstItem="wYM-LA-e6W" firstAttribute="top" secondItem="2e2-vi-iO0" secondAttribute="bottom" constant="536" id="Aup-PS-NzB"/>
+                            <constraint firstItem="gXr-lc-G50" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Czw-l3-Y8J"/>
+                            <constraint firstItem="gXr-lc-G50" firstAttribute="top" secondItem="2e2-vi-iO0" secondAttribute="bottom" constant="100.00000000000011" id="Ddh-GO-8W6"/>
+                            <constraint firstItem="wYM-LA-e6W" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DtG-Ts-Vuv"/>
+                            <constraint firstItem="hie-z9-NpM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Hkp-iX-ezN"/>
+                            <constraint firstItem="iI5-PL-ZVb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Jvf-TY-dxP"/>
+                            <constraint firstItem="PLc-0h-W48" firstAttribute="top" secondItem="2e2-vi-iO0" secondAttribute="bottom" constant="507" id="K1W-AD-1Yd"/>
+                            <constraint firstItem="hie-z9-NpM" firstAttribute="top" secondItem="2e2-vi-iO0" secondAttribute="bottom" constant="337" id="Mpf-I9-4mP"/>
+                            <constraint firstItem="pqW-bU-06D" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="RkE-DR-1rz"/>
+                            <constraint firstItem="7x7-MB-kLq" firstAttribute="top" secondItem="2e2-vi-iO0" secondAttribute="bottom" constant="366" id="XWV-JE-f6e"/>
+                            <constraint firstItem="pqW-bU-06D" firstAttribute="top" secondItem="2e2-vi-iO0" secondAttribute="bottom" constant="35.000000000000114" id="Zuq-vm-Ys8"/>
+                            <constraint firstItem="A8t-fp-2MR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gY0-gi-FQO"/>
+                            <constraint firstItem="oUs-q5-zXN" firstAttribute="top" secondItem="2e2-vi-iO0" secondAttribute="bottom" constant="206.99999999999989" id="hIs-M3-HJz"/>
+                            <constraint firstItem="oUs-q5-zXN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mRT-af-75o"/>
+                            <constraint firstItem="PLc-0h-W48" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sdM-42-kf0"/>
+                            <constraint firstItem="A8t-fp-2MR" firstAttribute="top" secondItem="2e2-vi-iO0" secondAttribute="bottom" constant="418" id="u4W-02-m5m"/>
+                            <constraint firstItem="iI5-PL-ZVb" firstAttribute="top" secondItem="2e2-vi-iO0" secondAttribute="bottom" constant="447" id="zs9-U3-R24"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="hamburguesa" destination="iI5-PL-ZVb" id="S1U-pq-aww"/>
+                        <outlet property="pais" destination="7x7-MB-kLq" id="puK-wY-ECT"/>
+                        <outlet property="precio" destination="wYM-LA-e6W" id="pjV-B3-fzQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="20.5" y="35.5"/>
+        </scene>
+    </scenes>
+</document>
